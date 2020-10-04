@@ -1,35 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>YOUR_NAME Personal Website</title>
+<title>Jessie's Personal Website</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Paytone+One|Fredoka+One|Sofia|Ribeye|Pacifico' rel='stylesheet'>
 
-<style>
-.red-box {
-    background-color: red;
-    color: white;
-    margin-top: 50px; 
-    margin-bottom: 50px;
-}
+<style type="text/css">
+  .salmon-box {
+      background-color: #F08080;
+      color: white;
+      margin-top: 50px; 
+      margin-bottom: 50px;
+  }
+  body {
+      font-family: 'Sofia';font-size: 22px;
+  }
+  .bg{
+    background-image: url("https://wallpaperaccess.com/full/1179535.jpg");
+    height: 100%
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  table1{
+    border-spacing: 1.0 rem;
+    table-layout: fixed;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td{
+    padding: 0.5 rem;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.62)
+  }
+  th{
+    background-color: rgba(255, 255, 255, 0.62)
+  }
 </style>
+</head>
 
-<body>
-
-    <div>
-        Welcome to the template :)
+<body class="bg">
+  <center style="argin-top: 300px; margin-bottom: 50px">
+    <div style = "font-family: 'Paytone One'; font-size:200%; color: white; margin-top: 50px">
+        Hi, Team! 
+        <br>Welcome to my website.
+    </div>
+  
+    <div style="background-color: coral; color: white; margin-top: 50px; margin-bottom: 50px;">
+      <h2 style="font-family: 'Pacifico'; font-zie: 140%">
+        Nice to meet you!!
+      </h2>
+      <p>
+        Hi! I'm Jessie Hong—hailing from Singapore & Korea :) 
+        <br>I'm a Mechanical Engineering freshman at Cal, and I'm really interested in robotics and AI (essentially, embodied AI).
+      </p>
     </div>
 
-    <div style="background-color: blue; color: white; margin-top: 50px; margin-bottom: 50px;">
-        This is an inline CSS
+    <div style="background-color: #DB7093; margin-top: 50px; margin-bottom: 50px;">
+      <h2 style="font-family: 'Fredoka One'">
+        (Past) Experiences
+      </h2>
+      <p>
+        I've taken computer science and data structures courses in Java, and self-taught Python. 
+        I've worked on projects using specific APIs including Twitter and translation services (Yandex) for data and sentiment analysis; 
+        I've created some maze game and queueing simulations with recursive algorithms and stacks and queue structures; 
+        and I've also briefly learnt Javascript/HTML/CSS, which culminated in my 'Harry Potter Sporcle Quiz'
+        —I'm really excited to learn more things in our Scribbl project! 
+        As part of SSP Astrophysics, I collaborated with a small team to track and estimate an orbit of a potentially hazardous asteroid.
+        My other technical experiences include leading a microgravity nanolab project and working on smart-sensor sutures.
+      </p>
     </div>
-
-    <div class = "red-box">
-        This is an internal CSS
-    </div>
-
-    <div>
-        I'll talk about external CSS later!
-    </div>
-
+  
+    <table id="table1">
+      <tr>
+        <td> 
+          <h2 style="font-family: 'Ribeye'">
+            A little more about me:
+          </h2>
+          <p>
+            I love doing puzzles and all sorts of (strategy) games! 
+            I'm also a big foodie and like trying out new food and travelling to different countries.
+            I like binging on mystery shows and novels: Sherlock and Detective Conan (anime) are some of my favourites.
+            Oh, and I absolutely love Pikachus! Adorableness overload <3
+          </p>
+        </td>
+        <td class = "salmon-box" style="vertical-align:middle; text-align:center;">
+          <img src="https://thumbs.gfycat.com/FineDistinctInsect-size_restricted.gif" alt="A happy Pikachu" width="500" height="350">
+        </td>
+      </tr>
+    </table>
+    
+  </center>
 </body>
 </html>
